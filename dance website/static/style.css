@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Roboto+Slab:wght@400;500;600;900&family=Ubuntu:wght@400;500&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  justify-content: center;
+}
+#logo{
+  display: flex;
+  color: white;
+  align-items: center;
+  margin:0 14px ;
+  font-size: 28px;
+  margin-right: 40px;
+}
+#logo img{
+  height: 42px;
+  filter: invert(1);
+}
+#navbar {
+  background-color: black;
+  font-family: "Lora", serif;
+  padding: 13px, 14px;
+}
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#navbar li {
+  list-style: none;
+}
+#navbar li a {
+  color: azure;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 13px 20px;
+}
+#navbar li a:hover {
+  color: aqua;
+  font-weight: bold;
+}
+#introSection {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 65px;
+  align-items: center;
+  background: center/cover no-repeat url("/static/bg.jpg");
+  height: 425px;
+  background-color: red;
+}
+#introSection div.small {
+  font-size: 38px;
+  padding: 5px;
+}
+#sponsorsSection {
+  height: 300px;
+  background-color: #fbd6d6c7;
+}
+#sponsorsSection h2 {
+  font-size: 38px;
+  text-align: center;
+  padding-top: 10px;
+}
+.card {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 29%;
+  margin: 23px 20px;
+  height: 185px;
+  /* background-color: aquamarine; */
+}
+.card h3 {
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 12px;
+  margin-top: 15px;
+}
+.card-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-img{
+  height: 100px;
+  padding: 0 14px;
+  padding: 0 14px;
+}
+.card-img img{
+  height: inherit;
+}
+.card-content{
+  padding: 0 10px;
+}
+.card-content p{
+font-size: 19px;
+}
+#missionSection {
+  height: 326px;
+  width: 67%;
+  margin: auto;
+}
+
+#missionSection h2 {
+  font-size: 36px;
+  font-family: "Lora", serif;
+  text-align: center;
+  padding-top: 10px;
+}
+#footer {
+  background-color: black;
+  height: 100px;
+}
