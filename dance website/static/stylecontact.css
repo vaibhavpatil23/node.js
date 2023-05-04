@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  margin: 12px 0;
+}
+.myInput {
+  width: 40%;
+  padding: 9px;
+  margin: 9px;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.myform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.btn {
+  cursor: pointer;
+  padding: 8px 16px;
+  outline: none;
+  margin: 26px;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 15px;
+  color: aliceblue;
+  background-color: blueviolet;
+}
+.container {
+  min-height: 74.7vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 43px 0;
+}
+.container h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 34px;
+}
