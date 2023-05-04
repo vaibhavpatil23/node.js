@@ -57,7 +57,7 @@
 }
 #sponsorsSection {
   height: 300px;
-  background-color: #fbd6d6c7;
+  background-color:white;
 }
 #sponsorsSection h2 {
   font-size: 38px;
@@ -112,13 +112,15 @@
 }
 
 #sponsors {
-  height: 191px;
-  max-width: 1000px;
-  margin: 27px auto;
+  height: 157px;
+    max-width: 891px;
+    margin: 42px auto
 }
 .spimages {
   height: 80%;
   margin: 20px;
+
+  
 }
 #footer {
   display: flex;

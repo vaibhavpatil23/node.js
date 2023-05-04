@@ -1,0 +1,51 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+    section#introSection        
+        div Welcome To Vaibhav Dance Acadamy
+        div.small Eat sleep dance repeat
+    
+    section#missionSection
+        h2 Our Mission
+
+        div.card
+            h3 Dance perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/pari2.jpg")
+                
+                div.card-content
+                    p This is the best dance acadamy of the univers
+        div.card
+            h3 Dance the away you like
+            div.card-box
+                div.card-img
+                    img(src="/static/pari.jpg")
+                
+                div.card-content
+                    p This is the best dance acadamy of the univers
+
+        div.card
+            h3 More dance practice
+            div.card-box
+                div.card-img
+                    img(src="/static/pari5.jpg")
+                
+                div.card-content
+                    p This is the best dance acadamy of the univers
+
+    <hr/>
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors 
+            img(src="/static/L1.jpg", alt="sponsers images",Class="spimages")
+            img(src="/static/L2.jpg", alt="sponsers images",Class="spimages")
+            img(src="/static/L3.jpg", alt="sponsers images",Class="spimages")
+            img(src="/static/L4.jpg", alt="sponsers images",Class="spimages")
