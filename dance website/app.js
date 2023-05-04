@@ -4,7 +4,6 @@ const app = express();
 const port = 8000;
 
 // app.use(express.static("static", Option));
-
 app.use('/static', express.static('static')) // For serving static files
 app.use(express.urlencoded())
 
@@ -15,7 +14,11 @@ app.set('views', path.join(__dirname, 'views')) // Set the views directory
 // ENDPOINTS
 app.get('/', (req, res)=>{
     const params = {}
-    res.status(200).render('index.pug', params);
+    res.status(200).render('home.pug', params);
+});
+app.get('/contact', (req, res)=>{
+    const params = {}
+    res.status(200).render('contact.pug', params);
 });
 // START THE SERVER
 app.listen(port, ()=>{
