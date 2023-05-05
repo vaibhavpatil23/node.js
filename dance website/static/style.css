@@ -47,8 +47,8 @@
   font-family: "Ubuntu", sans-serif;
   font-size: 65px;
   align-items: center;
-  background: center/cover no-repeat url("/static/bg.jpg");
-  height: 425px;
+  background: center/cover no-repeat url("/static/g.jpg");
+  height: 500px;
   background-color: red;
 }
 #introSection div.small {
@@ -57,22 +57,24 @@
 }
 #sponsorsSection {
   height: 300px;
-  background-color:white;
+  background-color: white;
 }
 #sponsorsSection h2 {
   font-size: 38px;
   text-align: center;
   padding-top: 10px;
+  font-family: "Lora", serif;
 }
 .card {
   display: inline-block;
-  border: 2px solid black;
-  border-radius: 10px;
+  border: 1px solid #100d0e;
+  border-radius: 16px;
   width: 29%;
-  margin: 23px 20px;
-  height: 185px;
-  /* background-color: aquamarine; */
+  margin: 32px 21px;
+  height: 184px;
+  /* background-color: #F1F8E9; */
 }
+
 .card h3 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -113,14 +115,12 @@
 
 #sponsors {
   height: 157px;
-    max-width: 891px;
-    margin: 42px auto
+  max-width: 891px;
+  margin: 42px auto;
 }
 .spimages {
   height: 80%;
   margin: 20px;
-
-  
 }
 #footer {
   display: flex;
